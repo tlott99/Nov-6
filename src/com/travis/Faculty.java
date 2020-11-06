@@ -1,6 +1,6 @@
 package com.travis;
 
-public class Faculty implements IPerson {
+public class Faculty<T> implements IPerson {
     private int id;
     private String name;
     T data;
